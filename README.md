@@ -2,6 +2,8 @@
 
 This is a collection of Roblox game systems that includes 3 samples. Each sample is provided as an .rbxm file and can be run directly in Studio.  
 
+🔗 [Play the actual game on Roblox](https://www.roblox.com/ko/games/13457104744/Hyundai-Future-Adventure-obby)
+
 ## 📚 Contents
 
 - [1. 🎟️ Lobby Sample](#1-lobby-sample)  
@@ -15,9 +17,9 @@ This sample demonstrates a lobby system using mouse hover detection.
 It includes lobby initialization, player enter/exit state checking, and reset functionality.
 
 ## 🚀 Key Features   
-- Lobby setup using `CollectionService` on both server and client  
-- Lobby class defined using Lua `metatable`  
-- Lobby state is managed and updated on the server
+> - Lobby setup using `CollectionService` on both server and client  
+> - Lobby class defined using Lua `metatable`  
+> - Lobby state is managed and updated on the server
 
 ## 🏷️ File Structure  
 ReplicatedStorage/  
@@ -44,9 +46,9 @@ Workspace/
 This sample showcases a basic core game loop system, including intermission, player timer, checkpoint, and kill parts.
 
 ## 🚀 Key Features   
-- Implements OOP using modules and metatables
-- Uses RemoteEvent for client-server updates
-- Sets up interaction parts using CollectionService
+> - Implements OOP using modules and metatables
+> - Uses RemoteEvent for client-server updates
+> - Sets up interaction parts using CollectionService
 
 ## 🏷️ File Structure  
 ReplicatedStorage/  
@@ -76,8 +78,8 @@ Workspace
 This sample includes a basic minigame and an initialization system that handles different minigame types efficiently.
 
 ## 🚀 Key Features   
-- Sets up interaction parts using CollectionService
-- Uses metatable to unify the initialization process across various minigame types
+> - Sets up interaction parts using CollectionService
+> - Uses metatable to unify the initialization process across various minigame types
 
 ## 🏷️ File Structure  
 ReplicatedStorage/  
